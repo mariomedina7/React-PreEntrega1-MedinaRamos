@@ -1,0 +1,8 @@
+.cart-widget {
+    position: relative;
+    display: inline-block;
+}
+
+.cart-widget__icon {
+    font-size: 40px;
+}
