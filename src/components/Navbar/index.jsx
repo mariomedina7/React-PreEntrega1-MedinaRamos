@@ -1,4 +1,5 @@
 import logo from "../../../public/eckbd-logo.png"
+import Title from "../Title"
 import CartWidget from "../CartWidget"
 import ItemList from "../ItemListContainer"
 
@@ -10,6 +11,7 @@ const Navbar = () => {
                     <figure className="navbar__logo">
                         <img src={logo} alt="" />
                     </figure>
+                    <Title text={"Eckbd Shop"} />
                     <menu className="navbar__menu">
                         <ItemList text={"Categorias"}/>
                         <ItemList text={"Nosotros"}/>

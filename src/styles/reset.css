@@ -38,3 +38,10 @@ ul, ol, menu {
     font-weight: 450;
     font-style: normal;
 }
+
+.montserrat-bold-custom {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
